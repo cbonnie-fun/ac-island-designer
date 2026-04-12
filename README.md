@@ -1,5 +1,7 @@
 This is a webapp that generates design ideas for Animal Crossing islands.
 
+![App Screenshot](screenshot_of_app.png)
+
 This project is a Next.js project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
