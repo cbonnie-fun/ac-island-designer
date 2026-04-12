@@ -1,0 +1,36 @@
+:root {
+  --acnh-bg: #E8F5E9; /* Soft green */
+  --acnh-sky: #B2EBF2;
+  --acnh-wood: #D7CCC8;
+  --acnh-wood-dark: #8D6E63;
+  --acnh-text: #4E342E;
+  --acnh-leaf: #81C784;
+  --acnh-leaf-dark: #4CAF50;
+  --acnh-panel: rgba(255, 255, 255, 0.85); /* glassmorphism */
+  --acnh-shadow: 0 4px 12px rgba(78, 52, 46, 0.1);
+  --acnh-font: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, var(--acnh-sky) 0%, var(--acnh-bg) 100%);
+  color: var(--acnh-text);
+  font-family: var(--acnh-font);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  color: var(--acnh-wood-dark);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
