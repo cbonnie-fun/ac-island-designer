@@ -1,4 +1,4 @@
-This is a webapp that generates design ideas for Animal Crossing islands.
+This is a web app that generates design ideas for Animal Crossing islands.
 
 ![App Screenshot](screenshot_of_app.png)
 
